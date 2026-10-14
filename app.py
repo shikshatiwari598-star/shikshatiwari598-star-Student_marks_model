@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import pandas as pd
 import joblib
@@ -65,4 +64,3 @@ if st.button("Predict Marks"):
     st.write("Attendance:", f"{attendance}%")
 
 st.caption("Built with Python, Pandas, Scikit-learn and Streamlit")
-```
